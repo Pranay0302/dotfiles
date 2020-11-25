@@ -1,0 +1,91 @@
+{
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.views.repositories.files.layout": "list",
+    "git.autofetch": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "git.enableSmartCommit": true,
+    "python.languageServer": "Microsoft",
+    "python.pythonPath": "/usr/bin/python3",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.title": "─=≡Σ((( つ•̀ω•́)つ Let’s Code ${rootPath}",
+    "breadcrumbs.enabled": false,
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "editor.suggestSelection": "first",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New',monospace",
+    "workbench.sideBar.location": "right",
+    "workbench.settings.editor": "json",
+    "workbench.editor.limit.value": 110,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": true,
+    "files.exclude": {
+        // checking the node modules
+        "node_modules": false,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.svn": true
+    },
+    "files.insertFinalNewline": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "editor.colorDecorators": false,
+    "editor.parameterHints.enabled": false,
+    "editor.wordWrap": "on",
+
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.closeWhenEmpty": true,
+    "window.zoomLevel": 0,
+    "extensions.ignoreRecommendations": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "eslint.alwaysShowStatus": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.autoClosingTags": false,
+    "typescript.autoClosingTags": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true
+    },
+    "prettier.requireConfig": true,
+
+    // rainbow_csv
+    "rainbow_csv.enable_auto_csv_lint": true,
+    "rainbow_csv.enable_tooltip": true,
+    "rainbow_csv.autodetect_separators": [
+        "\t",
+        ",",
+        ";",
+        "|"
+    ]
+}
