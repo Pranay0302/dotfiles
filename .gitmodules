@@ -1,3 +1,6 @@
 [submodule "simple-bar"]
 	path = simple-bar
 	url = https://github.com/Jean-Tinland/simple-bar
+[submodule "cmdz"]
+	path = cmdz
+	url = https://github.com/Pranay0302/cmdz
