@@ -1,5 +1,6 @@
 # opening applications with shortcut keys
-cmd + alt - return : open -a Safari
+cmd + alt - s : open -a Safari
+cmd + alt - g : open -a "Google Chrome"
 cmd - return : open -a iTerm
 cmd + shift - return : code
 
@@ -13,14 +14,14 @@ ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
  ]
 
 # navigation
-alt - right : yabai -m window --focus east
-alt - left : yabai -m window --focus west
-alt - down : yabai -m window --focus south
-alt - up : yabai -m window --focus north
+alt - d : yabai -m window --focus east
+alt - a : yabai -m window --focus west
+alt - s : yabai -m window --focus south
+alt - w : yabai -m window --focus north
 
 # fullscreen
-cmd - f         : yabai -m window --toggle zoom-fullscreen
-cmd + shift - f : yabai -m window --toggle native-fullscreen
+alt - f         : yabai -m window --toggle zoom-fullscreen
+alt + shift - f : yabai -m window --toggle native-fullscreen
 
 # little switcharoo
 cmd + alt - x : yabai -m space --mirror x-axis
