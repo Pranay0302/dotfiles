@@ -1,19 +1,20 @@
 # Path to my oh-my-zsh installation.
 export ZSH="/Users/$USER/.oh-my-zsh"
 
+# Path to my Go installation
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin
+
 # Path to my flutter installation.
 export PATH="$PATH:/Users/$USER/Developer/flutter/bin"
-
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="agnoster"
 
 
 # alias section
 [[ -f ~/.aliases ]] && source ~/.aliases
 
 
-# custom commands 
-. /Users/$USER/temp/cmdz/direct 
+# custom commands
+. /Users/$USER/temp/cmdz/direct
 
 
 # nvm
@@ -26,7 +27,7 @@ if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
 fi
 
-# macfeh 
+# macfeh
 function macfeh() {
     open -b "drabweb.macfeh" "$@"
 }
@@ -34,19 +35,15 @@ function macfeh() {
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="false"
 
-# prompt
-autoload -U promptinit; promptinit
-prompt pure
-
 DISABLE_AUTO_UPDATE="true"
-DISABLE_LS_COLORS="true"
+# DISABLE_LS_COLORS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 
 
 ####################################
 # **  PLUGINS AND ADDITIONALS  **  #
-#################################### 
+####################################
 
 # thefuck
 eval $(thefuck --alias)
@@ -63,6 +60,13 @@ plugins=(git zsh-syntax-highlighting brew zsh-autosuggestions dotenv safe-paste 
 ZSH_DOTENV_FILE=.dotenv
 
 source $ZSH/oh-my-zsh.sh
+
+# prompt
+autoload -U promptinit; promptinit
+zstyle :prompt:pure:path color blue
+zstyle :prompt:pure:git:dirty color green
+prompt pure
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

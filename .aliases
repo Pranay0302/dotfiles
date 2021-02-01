@@ -5,17 +5,24 @@ alias sr='source ~/.zshrc'
 alias py='python3'
 alias cat='lolcat'
 alias xcodev='/usr/bin/xcodebuild -version'
+alias discord="open -a discord"
+alias notes="open -a notes"
+alias cacherem="source ./cacherem.sh"
 
 # https://github.com/sivel/speedtest-cli
 alias fast='speedtest'
 
 # https://github.com/ytdl-org/youtube-dl
 alias ytdl='youtube-dl'
+alias ytdlmp3='youtube-dl -x --audio-format mp3'
 
-# confirm before overwriting 
+# confirm before overwriting
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
 # enabling siri via terminal
 alias siri="open -a /System/Library/CoreServices/Siri.app"
+
+# nodemodules
+alias nmfresh="rm -rf node_modules/ package-lock.json && npm install"
