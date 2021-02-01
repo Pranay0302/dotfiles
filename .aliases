@@ -7,7 +7,7 @@ alias cat='lolcat'
 alias xcodev='/usr/bin/xcodebuild -version'
 alias discord="open -a discord"
 alias notes="open -a notes"
-alias cacherem="source ./cacherem.sh"
+alias cacherem="cd ~ && source ./cacherem.sh"
 
 # https://github.com/sivel/speedtest-cli
 alias fast='speedtest'
