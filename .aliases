@@ -26,3 +26,10 @@ alias siri="open -a /System/Library/CoreServices/Siri.app"
 
 # nodemodules
 alias nmfresh="rm -rf node_modules/ package-lock.json && npm install"
+
+# simulator
+alias ios="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
+
+# pubkeys
+alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '-> copied <-'"
+alias npubkey="cat ~/.ssh/id_rsa_newone.pub | pbcopy | echo '-> copied <-'"
