@@ -1,4 +1,4 @@
-# Taps
+# taps
 tap "adoptopenjdk/openjdk"
 tap "github/gh"
 tap "heroku/brew"
@@ -95,6 +95,8 @@ brew "koekeishiya/formulae/yabai", args: ["HEAD"]
 brew "mongodb/brew/mongodb-community"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
+# Application launcher and productivity software
+cask "alfred"
 # Android SDK component
 cask "android-platform-tools"
 cask "background-music"
