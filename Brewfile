@@ -9,6 +9,10 @@ tap "homebrew/services"
 tap "koekeishiya/formulae"
 tap "mongodb/brew"
 
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Interpreted, interactive, object-oriented programming language
@@ -21,6 +25,8 @@ brew "cask"
 brew "cmake"
 # Console Matrix
 brew "cmatrix"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Pack, ship and run any application as a lightweight container
@@ -31,6 +37,8 @@ brew "exiftool"
 brew "ffmpeg"
 # Distributed revision control system
 brew "git"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # GNU grep, egrep and fgrep
 brew "grep"
 # Improved top (interactive process viewer)
@@ -45,6 +53,8 @@ brew "python@3.8"
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# YAML Parser
+brew "libyaml"
 # Rainbows and unicorns in your console!
 brew "lolcat"
 # Swiss Army Knife for macOS
@@ -53,6 +63,8 @@ brew "m-cli"
 brew "mas"
 # MP3 player for Linux and UNIX
 brew "mpg123"
+# Netwide Assembler (NASM) is an 80x86 assembler
+brew "nasm"
 # NCurses Disk Usage
 brew "ncdu"
 # Fast, highly customisable system info script
@@ -85,6 +97,8 @@ brew "wget"
 brew "yarn"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# General-purpose lossless data-compression library
+brew "zlib"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 # Simple hotkey-daemon for macOS.
@@ -106,6 +120,8 @@ cask "cakebrew"
 cask "clean-me"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Note taking and to-do application with synchronization capabilities
+cask "joplin"
 # Timer application
 cask "michaelvillar-timer"
 # Open-source download manager
